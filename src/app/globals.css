@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.shopnow-transition{
+    transition: all 0.5s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.border-corner{
+    border-radius: 0 0 0 100px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.border-manual{
+    border: 1px solid #029FAE;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.third-nav{
+    box-shadow: 0 1 0 rgb(231, 231, 231);
 }
